@@ -11,8 +11,7 @@ public class Main {
 		long fig;
 		System.out.println("Enter number to be converted to words: ");
 		fig = sc.nextLong();
-		FigWords figWords = new FigWords();
-		figWords.figToWords(fig);
+		FigWords.figToWords(fig);
 		
 		
 		//Part 2

@@ -2,20 +2,20 @@ package part2;
 
 public class FigWords {
 	
-	String[] tensNames = {"", " ten", " twenty", " thirty",
+	private static String[] tensNames = {"", " ten", " twenty", " thirty",
 		    " forty", " fifty", " sixty", 
 		    " seventy", " eighty", " ninety"};
 
-	String[] numNames = {"", " one", " two", 
+	private static String[] numNames = {"", " one", " two", 
 			" three", " four", " five"," six",
 		    " seven"," eight", " nine", " ten", 
 		    " eleven", " twelve", " thirteen", 
 			" fourteen", " fifteen", " sixteen", 
 			" seventeen", " eighteen", " nineteen"};
 	
-	String[] power = {" hundred", " thousand"};
+	private static String[] power = {" hundred", " thousand"};
 	
-	public void figToWords(long fig) {
+	public static void figToWords(long fig) {
 		
 		if(fig==0) {
 			System.out.println("zero");
